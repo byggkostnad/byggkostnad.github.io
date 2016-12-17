@@ -1,10 +1,10 @@
-(function ($) {
+(function ($, toastr) {
   function successFullyPostedToGoogle(){
     //Success Message
-    console.log("We have received your information and will be in touch!");
+    toastr.info("We have received your information and will be in touch!");
   }
   function failedToPostToGoogle(){
-    console.log("We where unable to receive your information!");    
+    toastr.error("We where unable to receive your information!");    
   }
 
   function postToGoogle() {
@@ -42,4 +42,4 @@
     $("#contact-form").submit(postToGoogle);
   });
 
-})(jQuery); // end of jQuery name space
+})(jQuery, toastr); // end of jQuery name space
