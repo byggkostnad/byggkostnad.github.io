@@ -55,3 +55,34 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+#qqq {
+    font-family: 'Montserrat';
+}
+
+#download-button {
+  text-transform: none;
+  font-family: 'Montserrat';
+}
+
+#cap {
+  text-transform: uppercase;
+}
+
+#carwidth {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carleft {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+* {
+ font-size: 100%;
+ font-family: 'Montserrat';
+}
