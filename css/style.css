@@ -6,8 +6,8 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
+ nav ul a,
+ nav .brand-logo {
   color: #444;
 }
 
@@ -25,9 +25,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -68,6 +68,10 @@ footer.page-footer {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #carleft {
@@ -76,6 +80,8 @@ footer.page-footer {
   margin-right: auto;
   float: left;
   text-align: left;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 #carright {
@@ -87,13 +93,13 @@ footer.page-footer {
  font-family: 'Montserrat';
 }
 
- .carousel .indicators .indicator-item {
+.carousel .indicators .indicator-item {
   background-color: #E1E1E1;
- }
+}
 
- .carousel .indicators .indicator-item.active {
+.carousel .indicators .indicator-item.active {
   background-color: #3261EF;
- }
+}
 
 .carousel.carousel-slider .carousel-item {
 	min-height: 200px;
@@ -115,7 +121,6 @@ footer.page-footer {
 }
 
 #shrinkabit {
-
   position: relative;
   top: 50%;
   transform: translateY(-100%);
@@ -129,5 +134,19 @@ footer.page-footer {
   text-transform: uppercase;
 }
 
-413
-220
+#h2span {
+  color: #3261EF;
+  font-size: 0.4em;
+  text-align: left;
+  font-weight: bold;
+}
+
+#h2outofspan {
+  text-align: left;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+.pleft p{
+  text-align: left;
+}
