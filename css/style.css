@@ -6,65 +6,16 @@
  * Made By MaterializeCSS.com
  */
 
- nav ul a,
- nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-.parallax-container .section {
-  width: 100%;
-}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
+* {
+  font-size: 100%;
+  font-family: 'Montserrat';
 }
 
 #download-button {
   text-transform: none;
 }
 
-#cap {
-  text-transform: uppercase;
-}
-
-#carwidth {
+.carousel {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -78,19 +29,15 @@ footer.page-footer {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  float: left;
-  text-align: left;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
+  color: #303934;
 }
 
 #carright {
-	text-align: left;
-}
-
-* {
- font-size: 100%;
- font-family: 'Montserrat';
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel .indicators .indicator-item {
@@ -109,24 +56,27 @@ footer.page-footer {
 	height: 710px;
 }
 
-#headerh1 {
-	font-weight: bold;
-	text-shadow: 0px 2px 4px grey;
-}
-
 #topcenter {
-	position: relative;
-	top: 50%;
-	transform: translateY(50%);
-}
-
-#shrinkabit {
   position: relative;
   top: 50%;
-  transform: translateY(-100%);
+  transform: translateY(50%);
 }
 
-.blueishbutton {
+#topcenter h1 {
+	font-weight: bold;
+	text-shadow: 0px 2px 4px grey;
+  letter-spacing: -3px;
+}
+
+#getintouchpos {
+  position: relative;
+  top: 50%;
+  transform: translateY(-75%);
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+#submitbutton {
   background-color: #3261EF;
 }
 
@@ -137,16 +87,19 @@ footer.page-footer {
 #h2span {
   color: #3261EF;
   font-size: 0.4em;
-  text-align: left;
   font-weight: bold;
 }
 
 #h2outofspan {
-  text-align: left;
   font-weight: bold;
   font-size: 5em;
+  color: #303934;
 }
 
-.pleft p{
-  text-align: left;
+#pbold {
+  font-weight: bold;
+}
+
+.waves-effect.waves-blueish .waves-ripple {
+      background-color: rgba(50, 97, 239, 0.65);
 }
