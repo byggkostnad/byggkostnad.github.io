@@ -11,15 +11,36 @@
   font-family: 'Montserrat';
 }
 
+.allcaps {
+  text-transform: uppercase;
+}
+
+#index-banner {
+  height: 710px;
+}
+
+#topcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+#topcenter h1 {
+  font-weight: bold;
+  text-shadow: 0px 4px 8px #303934;
+  letter-spacing: -3px;
+}
+
+#subheader {
+  margin-top: 0;
+}
+
 #download-button {
   text-transform: none;
 }
 
 .carousel {
   width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -27,17 +48,24 @@
 
 #carleft {
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 2.5em;
   font-weight: bold;
   color: #303934;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #carright {
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .carousel .indicators .indicator-item {
@@ -50,38 +78,6 @@
 
 .carousel.carousel-slider .carousel-item {
 	min-height: 200px;
-}
-
-#index-banner {
-	height: 710px;
-}
-
-#topcenter {
-  position: relative;
-  top: 50%;
-  transform: translateY(50%);
-}
-
-#topcenter h1 {
-	font-weight: bold;
-	text-shadow: 0px 2px 4px grey;
-  letter-spacing: -3px;
-}
-
-#getintouchpos {
-  position: relative;
-  top: 50%;
-  transform: translateY(-75%);
-  font-weight: bold;
-  font-size: 3.5em;
-}
-
-#submitbutton {
-  background-color: #3261EF;
-}
-
-.allcaps {
-  text-transform: uppercase;
 }
 
 #h2span {
@@ -98,6 +94,22 @@
 
 #pbold {
   font-weight: bold;
+}
+
+#getintouchpos {
+  position: relative;
+  top: 50%;
+  transform: translateY(-75%);
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.contactfield {
+  font-size: 1.2em !important;
+}
+
+#submitbutton {
+  background-color: #3261EF;
 }
 
 .waves-effect.waves-blueish .waves-ripple {

@@ -17,13 +17,13 @@
 	<div id="index-banner" class="parallax-container">
 		<div class="section no-pad-bot">
 			<div id="topcenter" class="container">
-				<br><br>
-				<h1 class="allcaps header center white-text">Byggkostnad.</h1>
+				<h1 class="allcaps header center-align white-text">Byggkostnad.</h1>
 				<div class="row center">
-					<h5 class="header col s12 white-text">Analyse development costs</h5>
+					<h5 id="subheader" class="header col s12 white-text">Analyse development costs</h5>
 				</div>
+				<br /> <br /> <br /> <br />
 				<div class="row center">
-					<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-blueish white black-text">Get started</a>
+					<a href="#contact" id="download-button" class="btn-large waves-effect waves-blueish white black-text">Get started</a>
 				</div>
 				<br><br>
 			</div>
@@ -31,78 +31,79 @@
 		<div class="parallax"><img src="blue.jpg" alt="Unsplashed background img 1"></div>
 	</div>
 
-	<div id="carwidth" class="carousel carousel-slider center z-depth-1" data-indicators="true">
+	<div id="carwidth" class="carousel carousel-slider center-block z-depth-1" data-indicators="true">
 		<div class="carousel-item white" href="#one!">
-			<h2 id="carleft" class="allcaps left left-align">Speeds Up Development</h2>
+			<h2 id="carleft" class="allcaps left-align">Speeds Up Development</h2>
 			<p id="carright" class="grey-text right left-align">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
 		</div>
 		<div class="carousel-item white black-text" href="#two!">
-			<h2 id="carleft" class="allcaps left left-align">User Experience Focused</h2>
+			<h2 id="carleft" class="allcaps left-align">User Experience Focused</h2>
 			<p id="carright" class="grey-text right left-align">The goal for our product is to use user focused interfaces in order to help your team more accurately show you their development pain points.</p>
 		</div>
 		<div class="carousel-item white black-text" href="#three!">
-			<h2 id="carleft" class="allcaps left left-align">Easy to work with</h2>
+			<h2 id="carleft" class="allcaps left-align">Easy to work with</h2>
 			<p id="carright" class="grey-text right left-align">We are using top of the line techniques to simplify your work experience managing costs. We strive to document and provide easy structural hints about your solution.</p>
 		</div>
 	</div>
 
-	<div class="parallax-container valign-wrapper">
+	<div class="parallax-container">
 		<div class="section no-pad-bot">
 			<div class="container">
 				<div class="row center">
 					<div class="col s6">
 						<h2 id="h2outofspan" class="allcaps left-align"><span id="h2span">A Modern Approach</span> Managing Costs</h2>
-						</div>
+					</div>
 
-						<div class="pleft col s6 grey-text left-align">
-							<p id="pbold">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
+					<div class="col s5 grey-text left-align">
+						<p id="pbold">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
 
-							<p>We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution. We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
-						</div>
+						<br />
+
+						<p>We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution. We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
 					</div>
 				</div>
 			</div>
-			<div class="parallax"><img src="grey.jpg" alt="Unsplashed background img 3"></div>
 		</div>
+		<div class="parallax"><img src="grey.jpg" alt="Unsplashed background img 3"></div>
+	</div>
 
-		<div class="parallax-container valign-wrapper">
-			<div class="container">
-				<h2 id="getintouchpos" class="header allcaps center white-text">Get In Touch</h2>
+	<div class="parallax-container valign-wrapper" id="contact">
+		<div class="container">
+			<h2 id="getintouchpos" class="header allcaps center white-text">Get In Touch</h2>
 
-
-				<div class="row">
-					<form class="col s12">
-						<div class="row">
-							<div class="input-field col s4">
-								<input id="first_name" type="text" class="validate">
-								<label for="first_name" class="white-text">Name</label>
-							</div>
-							<div class="input-field col s4">
-								<input id="email" type="email" class="validate">
-								<label for="email" class="white-text">Email</label>
-							</div>
-							<div class="input-field col s4">
-								<input id="icon_telephone" type="tel" class="validate">
-								<label for="icon_telephone" class="white-text">Phone</label>
-							</div>
+			<div class="row">
+				<form class="col s12" id="contact-form" target="_self" onsubmit="" action="">
+					<div class="row">
+						<div class="input-field col s4">
+							<input id="name" type="text" class="validate">
+							<label for="name" class="white-text contactfield">Name</label>
 						</div>
-					</form>
-				</div>
-
-
-				<div class="row center">
-					<button id="submitbutton" class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit</button>
-				</div>
+						<div class="input-field col s4">
+							<input id="email" type="email" class="validate">
+							<label for="email" class="white-text contactfield">Email</label>
+						</div>
+						<div class="input-field col s4">
+							<input id="icon_telephone" type="tel" class="validate">
+							<label for="icon_telephone" class="white-text contactfield">Phone</label>
+						</div>
+					</div>
+				</form>
 			</div>
 
-			<div class="parallax"><img src="dark.jpg" alt="Unsplashed background img 3"></div>
+
+			<div class="row center">
+				<button id="submitbutton" class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit</button>
+			</div>
 		</div>
 
+		<div class="parallax"><img src="dark.jpg" alt="Unsplashed background img 3"></div>
+	</div>
 
-		<!--  Scripts-->
-		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="js/materialize.js"></script>
-		<script src="js/init.js"></script>
 
-	</body>
-	</html>
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+
+</body>
+</html>
