@@ -37,6 +37,7 @@
 
 #download-button {
   text-transform: none;
+  font-size: 1.2em;
 }
 
 .carousel {
@@ -47,6 +48,11 @@
 }
 
 #carleft {
+
+  text-shadow: 2px 0 #303934;
+  letter-spacing: 2px;
+  line-height: 0.8em;
+
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
@@ -62,8 +68,8 @@
 
 #carright {
   width: 50%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -80,20 +86,33 @@
 	min-height: 200px;
 }
 
-#h2span {
+#h2topsmall {
+  letter-spacing: 1px;
+
   color: #3261EF;
-  font-size: 0.4em;
-  font-weight: bold;
+  font-size: 1.4em;
+  font-weight: bolder;
+  line-height: 0em;
+  letter-spacing: 0px;
 }
 
-#h2outofspan {
+#h2bottombig {
+  margin-top: 0;
+  margin-bottom: 0;
+  clear: both;
   font-weight: bold;
   font-size: 5em;
   color: #303934;
+
+  text-shadow: 2px 0 #303934;
+  letter-spacing: 2px;
+  line-height: 0.8em;
 }
 
 #pbold {
+  margin-top: 0;
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 #getintouchpos {
