@@ -11,67 +11,58 @@
   font-family: 'Montserrat';
 }
 
+
 .allcaps {
   text-transform: uppercase;
 }
 
 #index-banner {
-  height: 710px;
+    background-image: url("../blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    min-height: 410px;
 }
 
-#topcenter {
-  position: relative;
-  top: 50%;
-  transform: translateY(50%);
+@media all and (max-width: 480px) {
+    h1.header{
+        font-size: 2.5em;
+    }
 }
 
-#topcenter h1 {
+h1.header {
   font-weight: bold;
-  text-shadow: 0px 4px 8px #303934;
   letter-spacing: -3px;
-}
-
-#subheader {
-  margin-top: 0;
+  text-shadow: 0px 2px 6px #303934;
+  margin-bottom: 0;
 }
 
 #download-button {
-  text-transform: none;
-  font-size: 1.2em;
+  transform: translateY(50%);
+}
+
+#greyish {
+    background-image: url("../grey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 830px;
+}
+
+#contactsection {
+    background-image: url("../dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    min-height: 300px;
+    clear: both;
 }
 
 .carousel {
+  min-width: 640px;
   width: 60%;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
-
-#carleft {
-
-  text-shadow: 2px 0 #303934;
-  letter-spacing: 2px;
-  line-height: 0.8em;
-
-  width: 50%;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #303934;
-  padding-left: 5%;
-  padding-right: 5%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#carright {
-  width: 50%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .carousel .indicators .indicator-item {
@@ -83,54 +74,97 @@
 }
 
 .carousel.carousel-slider .carousel-item {
-	min-height: 200px;
+  min-height: 220px;
+}
+
+.carleft {
+  width: 50%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-size: 2.5em !important;
+  font-weight: bold !important;
+  color: #303934;
+
+  text-shadow: 1px 0 #303934;
+  letter-spacing: 1px;
+  line-height: 1em !important;
+}
+
+.carright {
+  width: 50%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-left: 5%;
+  padding-right: 5%;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #h2topsmall {
-  letter-spacing: 1px;
-
   color: #3261EF;
   font-size: 1.4em;
-  font-weight: bolder;
-  line-height: 0em;
-  letter-spacing: 0px;
-}
-
-#h2bottombig {
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
-  clear: both;
-  font-weight: bold;
+}
+
+@media all and (max-width: 480px) {
+    #h2bottombig {
+        font-size: 2.5em !important;
+    }
+}
+
+
+#h2bottombig {
   font-size: 5em;
   color: #303934;
-
-  text-shadow: 2px 0 #303934;
-  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
   line-height: 0.8em;
 }
 
+@media all and (max-width: 480px) {
+    #middleright {
+        float: left !important;
+    }
+}
+
 #pbold {
-  margin-top: 0;
   font-weight: bold;
-  font-size: 1.1em;
+  margin-top: 0;
 }
 
 #getintouchpos {
-  position: relative;
-  top: 50%;
-  transform: translateY(-75%);
-  font-weight: bold;
-  font-size: 3.5em;
+	clear: both;
+	font-weight: bold;
 }
 
 .contactfield {
-  font-size: 1.2em !important;
+	font-size: 1.2em !important;
 }
 
 #submitbutton {
-  background-color: #3261EF;
+	background-color: #3261EF;
 }
 
 .waves-effect.waves-blueish .waves-ripple {
-      background-color: rgba(50, 97, 239, 0.65);
+	background-color: rgba(50, 97, 239, 0.65);
+}
+
+#contact-form {
+	width: 85%;
 }
