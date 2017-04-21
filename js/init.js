@@ -22,20 +22,20 @@ $('.carousel.carousel-slider').carousel({fullWidth: true});
 
 			type: "POST",
 			dataType: "xml",
-            statusCode: {
-                0: function() {
-                	$('#name').val("");
-                	$('#email').val("");
-                	$('#phone').val("");
-                    toastr.info("We have received your information and will be in touch!");
-                },
-                200: function() {
-                	$('#name').val("");
-                	$('#email').val("");
-                	$('#phone').val("");
-                    toastr.info("We have received your information and will be in touch!");
-                }
-            }
+			statusCode: {
+				0: function() {
+					$('#name').val("");
+					$('#email').val("");
+					$('#phone').val("");
+					toastr.info("We have received your information and will be in touch!");
+				},
+				200: function() {
+					$('#name').val("");
+					$('#email').val("");
+					$('#phone').val("");
+					toastr.info("We have received your information and will be in touch!");
+				}
+			}
 		});
 		return false;
 	}
