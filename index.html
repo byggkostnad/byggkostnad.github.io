@@ -11,6 +11,7 @@
 
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 		</div>
 	</div>
 
-	<div id="greyish" class="section no-pad-bot">
+	<div id="middle-section" class="section no-pad-bot">
 		<div class="container">
 			<div id="carwidth" class="hide-on-small-only  carousel carousel-slider center-block z-depth-1" data-indicators="true">
 				<div class="carousel-item white" href="#one!">
@@ -53,7 +54,7 @@
 				</div>
 
 				<div class="row center">
-					<div id="middleright" class="col s12 m5 l5 grey-text right left-align">
+					<div id="middle-right" class="col s12 m5 l5 grey-text right left-align">
 						<p id="pbold">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
 
 						<p id="pord">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution. We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
@@ -63,24 +64,24 @@
 		</div>
 	</div>
 
-	<div id="contactsection" class="section no-pad-bot valign-wrapper">
+	<div id="contact-section" class="section no-pad-bot valign-wrapper">
 		<div class="container">
-			<h2 id="getintouchpos" class="header allcaps center white-text">Get In Touch</h2>
+			<h2 id="getintouch" class="header allcaps center white-text">Get In Touch</h2>
 
 			<div class="row">
 				<form id="contact-form" target="_self" onsubmit="" action="" class="center-block">
 					<div class="row">
-						<div class="input-field col s4">
+						<div class="input-field col s12 m4">
 							<input id="name" type="text" class="validate">
 							<label for="name" class="white-text contactfield">Name</label>
 						</div>
-						<div class="input-field col s4">
+						<div class="input-field col s12 m4">
 							<input id="email" type="email" class="validate">
 							<label for="email" class="white-text contactfield">Email</label>
 						</div>
-						<div class="input-field col s4">
-							<input id="telephone" type="tel" class="validate">
-							<label for="telephone" class="white-text contactfield">Phone</label>
+						<div class="input-field col s12 m4">
+							<input id="phone" type="tel" class="validate">
+							<label for="phone" class="white-text contactfield">Phone</label>
 						</div>
 					</div>
 				</form>
@@ -97,6 +98,7 @@
 
 	<!--  Scripts-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 	<script src="js/materialize.js"></script>
 	<script src="js/init.js"></script>
 
