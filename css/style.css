@@ -16,7 +16,7 @@
 }
 
 #index-banner {
-    background-image: url("../blue.jpg");
+    background-image: url("../alpineblue.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -47,7 +47,7 @@ h1.header {
 }
 
 .carousel .indicators .indicator-item.active {
-  background-color: #3261EF;
+  background-color: #3361EF;
 }
 
 .carousel.carousel-slider .carousel-item {
@@ -105,7 +105,7 @@ h1.header {
 }
 
 #middle-section {
-    background-image: url("../grey.jpg");
+    background-image: url("../snowwhite.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 830px;
@@ -118,7 +118,7 @@ h1.header {
 }
 
 #h2topsmall {
-  color: #3261EF;
+  color: #3361EF;
   font-size: 1.4em;
   font-weight: bold;
   margin-top: 0;
@@ -140,7 +140,7 @@ h1.header {
 }
 
 #contact-section {
-    background-image: url("../dark.jpg");
+    background-image: url("../charcoal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -162,11 +162,11 @@ h1.header {
 }
 
 #submitbutton {
-	background-color: #3261EF;
+	background-color: #3361EF;
 }
 
 .waves-effect.waves-blueish .waves-ripple {
-	background-color: rgba(50, 97, 239, 0.65);
+	background-color: rgba(51, 97, 239, 0.65);
 }
 
 #name, #email, #phone {
