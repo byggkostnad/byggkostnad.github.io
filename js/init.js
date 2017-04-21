@@ -3,12 +3,6 @@ $('.carousel.carousel-slider').carousel({fullWidth: true});
 (function ($, toastr) {
 
 	$(function () {
-		$('.button-collapse').sideNav();
-		$('.parallax').parallax();
-	}); // end of document ready
-
-
-	$(function () {
 		$("#contact-form").submit(postToGoogle);
 	});
 
@@ -25,22 +19,25 @@ $('.carousel.carousel-slider').carousel({fullWidth: true});
 				"entry.932829697": email,
 				"entry.920121692": phone
 			},
-			crossDomain: true,
+
 			type: "POST",
 			dataType: "xml",
-			success: successfullyPostedToGoogle,
-			error: failedToPostToGoogle
+            statusCode: {
+                0: function() {
+                	$('#name').val("");
+                	$('#email').val("");
+                	$('#phone').val("");
+                    toastr.info("We have received your information and will be in touch!");
+                },
+                200: function() {
+                	$('#name').val("");
+                	$('#email').val("");
+                	$('#phone').val("");
+                    toastr.info("We have received your information and will be in touch!");
+                }
+            }
 		});
 		return false;
-	}
-	
-	function successfullyPostedToGoogle() {
-    	//Success Message
-    	toastr.info("We have received your information and will be in touch!");
-	}
-	
-	function failedToPostToGoogle() {
-		toastr.error("We were unable to receive your information!");    
 	}
 
 })(jQuery, toastr); // end of jQuery name space
