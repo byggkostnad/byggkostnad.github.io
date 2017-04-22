@@ -1,188 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Byggkostnad</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<title>Byggkostnad</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
-<!--
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+	<div class="section no-pad-bot valign-wrapper" id="index-banner">
+		<div class="container">
+			<h1 class="header center allcaps white-text">Byggkostnad.</h1>
+			<div class="row center">
+				<h5 class="header col s12 white-text">Analyse development costs</h5>
+			</div>
+			<div class="row center">
+				<a href="#contact-form" id="download-button" class="btn-large waves-effect waves-blueish white black-text">Get started</a>
+			</div>
+		</div>
+	</div>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
--->
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center yellow-text text-darken-1">Byggkostnad</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Analyse development costs</h5>
-        </div>
-        <div class="row center">
-          <a href="#contact" id="download-button" class="btn-large waves-effect waves-light yellow darken-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
+	<div id="middle-section" class="section no-pad-bot">
+		<div class="container">
+			<div id="carwidth" class="hide-on-small-only  carousel carousel-slider center-block z-depth-1" data-indicators="true">
+				<div class="carousel-item white" href="#one!">
+					<h2 class="carleft allcaps left left-align">Speeds Up Development</h2>
+					<p class="carright grey-text right left-align">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
+				</div>
+				<div class="carousel-item white black-text" href="#two!">
+					<h2 class="carleft allcaps left left-align">User Experience Focused</h2>
+					<p class="carright grey-text right left-align">The goal for our product is to use user focused interfaces in order to help your team more accurately show you their development pain points.</p>
+				</div>
+				<div class="carousel-item white black-text" href="#three!">
+					<h2 class="carleft allcaps left left-align">Easy to work with</h2>
+					<p class="carright grey-text right left-align">We are using top of the line techniques to simplify your work experience managing costs. We strive to document and provide easy structural hints about your solution.</p>
+				</div>
+			</div>
 
 
-  <div class="container">
-    <div class="section">
+			<div class="section">
+				<div class="row center">
+					<div class="col s6">
+						<h2 id="h2topsmall" class="allcaps center left-align">A Modern Approach</h2>
+						<h2 id="h2bottombig" class="allcaps left left-align">Managing Costs</h2>
+					</div>
+				</div>
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+				<div class="row center">
+					<div id="middle-right" class="col s12 m5 l5 grey-text right left-align">
+						<p id="pbold">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
 
-            <p class="light">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
-          </div>
-        </div>
+						<p id="pord">We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution. We use computer science to analyse code and give helpful advice for how to tackle the complexity and cost of your solution.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+	<div id="contact-section" class="section no-pad-bot valign-wrapper">
+		<div class="container">
+			<h2 id="getintouch" class="header allcaps center white-text">Get In Touch</h2>
 
-            <p class="light">The goal for our product is to use user focused interfaces in order to help your team more accurately show you their development pain points.</p>
-          </div>
-        </div>
+			<div class="row">
+				<form id="contact-form" target="_self" onsubmit="" action="" class="center-block">
+					<div class="row">
+						<div class="input-field col s12 m4">
+							<input id="name" type="text" class="validate">
+							<label for="name" class="white-text contactfield">Name</label>
+						</div>
+						<div class="input-field col s12 m4">
+							<input id="email" type="email" class="validate">
+							<label for="email" class="white-text contactfield">Email</label>
+						</div>
+						<div class="input-field col s12 m4">
+							<input id="phone" type="tel" class="validate">
+							<label for="phone" class="white-text contactfield">Phone</label>
+						</div>
+					</div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+					<br/>
 
-            <p class="light">We are using top of the line techniques to simplify your work experience managing costs. We strive to document and provide easy structural hints about your solution.</p>
-          </div>
-        </div>
-        
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12">A modern approach to manage costs</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container" id="contact">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">
-           In order to get in contact with one of our sales representative, please enter your information below!
-         </p>
-         <div class="row">
-          <form class="col s12" id="contact-form" target="_self" onsubmit="" action="">
-            <div class="row">
-              <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <input placeholder="Enter your name here" id="name" type="text" class="validate">
-              </div>
-              <div class="input-field col s6">
-                <i class="material-icons prefix">email</i>
-                <input placeholder="Enter your email here" id="email" type="email" class="validate">
-              </div>
-              <div class="input-field col s6">
-                <i class="material-icons prefix">phone</i>
-                <input placeholder="Enter your phone number here" id="phone" type="tel" class="validate">
-              </div>
-            </div>
-            <div class="row">
-              <button class="waves-effect waves-light btn right" type="submit">Submit</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="parallax-container valign-wrapper">
-  <div class="section no-pad-bot">
-    <div class="container">
-      <div class="row center">
-        <h5 class="header col s12 bold">Don't let your estimations end up in a blur!</h5>
-      </div>
-    </div>
-  </div>
-  <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-</div>
-
-<footer class="page-footer yellow darken-1">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5 class="black-text">Company Bio</h5>
-        <p class="black-text text-lighten-4">We are a team of computer science monkeys writing code to help lighten your load.</p>
-      </div>
-        <!--
-        <div class="col l3 s12">
-          <h5 class="black-text">Settings</h5>
-          <ul>
-            <li><a class="black-text" href="#!">Link 1</a></li>
-            <li><a class="black-text" href="#!">Link 2</a></li>
-            <li><a class="black-text" href="#!">Link 3</a></li>
-            <li><a class="black-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      -->
-      <div class="col l3 s12">
-        <h5 class="black-text">Connect</h5>
-        <ul>
-          <li><a class="black-text" href="https://github.com/byggkostnad">Github</a></li>
-          <li><a class="black-text" href="mailto:contact@byggkostnad.com">Mail</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container">
-      Made by <a class="black-text text-lighten-3" href="https://github.com/byggkostnad">Byggkostnad</a>
-    </div>
-  </div>
-</footer>
+					<div class="row center">
+						<button id="submitbutton" class="btn waves-effect waves-light btn-large" type="submit" name="action">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</div>
 
 
-<!--  Scripts-->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
 
 </body>
 </html>
