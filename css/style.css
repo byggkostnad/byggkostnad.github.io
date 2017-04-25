@@ -6,193 +6,271 @@
  * Made By MaterializeCSS.com
  */
 
-* {
-  font-size: 100%;
-  font-family: 'Montserrat';
-}
+ * {
+ 	font-size: 100%;
+ 	font-family: 'Montserrat';
+ }
 
-.allcaps {
-  text-transform: uppercase;
-}
+ html {
+ 	overflow-y: scroll;
+ 	overflow-x: hidden;
+ }
 
-#index-banner {
-    background-image: url("../alpineblue.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    min-height: 410px;
-}
+ .bgletterB {
+ 	text-shadow: 0 5px 10px rgba(0,0,0,.125);
+ 	font-size: 1000px;
+ 	color: #3361EF;
+ 	position: absolute;
+ 	font-weight: 600;
+ 	top: -35vw;
+ 	left: -5vw;
+ 	transform: rotateZ(-25deg);
+ 	z-index: 0;
+ }
 
-h1.header {
-  font-weight: bold;
-  letter-spacing: -3px;
-  text-shadow: 0px 2px 6px #303934;
-  margin-bottom: 0;
-}
+ .bgletterK {
+ 	text-shadow: 0 5px 10px rgba(0,0,0,.125);
+ 	font-size: 1000px;
+ 	color: #3361EF;
+ 	position: absolute;
+ 	font-weight: 600;
+ 	top: -35vw;
+ 	right: -5vw;
+ 	transform: rotateZ(+25deg);
+ 	z-index: 0;
+ 	cursor:default;
+ }
 
-#download-button {
-  transform: translateY(50%);
-}
+ .bgletterO {
+ 	text-shadow: 0 5px 10px rgba(0,0,0,.125);
+ 	font-size: 1000px;
+ 	color: #FFFDF8;
+ 	position: absolute;
+ 	font-weight: 900;
+ 	top: -25vw;
+ 	left: -25vw;
+ 	z-index: 0;
+ }
 
-.carousel {
-  min-width: 640px;
-  width: 60%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
+ @media all and (max-width: 1100px) {
+ 	.bgletterB, .bgletterK {
+ 		font-size: 700px;
+ 		top:-15vw;
+ 	}
+ }
 
-.carousel .indicators .indicator-item {
-  background-color: #E1E1E1;
-}
+ @media all and (max-width: 800px) {
+ 	.bgletterB, .bgletterK {
+ 		font-size: 500px;
+ 		top:-5vw;
+ 	}
+ }
 
-.carousel .indicators .indicator-item.active {
-  background-color: #3361EF;
-}
+ @media all and (max-width: 580px) {
+ 	.bgletterB, .bgletterK {
+ 		font-size: 400px;
+ 	}
+ }
 
-.carousel.carousel-slider .carousel-item {
-  min-height: 220px;
-}
+ @media all and (max-width: 480px) {
+ 	.bgletterB, .bgletterK {
+ 		font-size: 300px;
+ 	}
+ }
 
-.carleft {
-  width: 50%;
+ .allcaps {
+ 	text-transform: uppercase;
+ }
 
-  margin-top: 0;
-  margin-bottom: 0;
+ #index-banner {
+ 	background-color: #3361EF;
+ 	height: 600px;
+ 	min-height: 410px;
+ 	position: relative;
+ }
 
-  padding-left: 5%;
-  padding-right: 5%;
-  
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+ h1.header {
+ 	font-weight: bold;
+ 	letter-spacing: -3px;
+ 	text-shadow: 0px 2px 6px #303934;
+ 	margin-bottom: 0;
+ 	position: relative;
+ }
 
-  font-size: 2.5em !important;
-  font-weight: bold !important;
-  color: #303934;
+ h5.header {
+ 	position: relative;
+ }
 
-  text-shadow: 1px 0 #303934;
-  letter-spacing: 1px;
-  line-height: 1em !important;
-}
+ #download-button {
+ 	transform: translateY(50%);
+ }
 
-@media all and (max-width: 730px) {
-  .carleft {
-    font-size: 2.0em !important;
-  }
+ .carousel {
+ 	min-width: 640px;
+ 	width: 60%;
+ 	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+ 	z-index: 1;
+ }
 
-  .carright {
-    font-size: 0.9em !important;
-  }
+ .carousel .indicators .indicator-item {
+ 	background-color: #E1E1E1;
+ }
 
-  .carousel {
-    min-width: 500px;
-  }
-}
+ .carousel .indicators .indicator-item.active {
+ 	background-color: #3361EF;
+ }
 
-.carright {
-  width: 50%;
+ .carousel.carousel-slider .carousel-item {
+ 	min-height: 220px;
+ }
 
-  margin-top: 0;
-  margin-bottom: 0;
+ .carleft {
+ 	width: 50%;
 
-  padding-left: 5%;
-  padding-right: 5%;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
 
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
+ 	padding-left: 5%;
+ 	padding-right: 5%;
 
-#middle-section {
-    background-image: url("../snowwhite.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 830px;
-}
+ 	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
 
-@media all and (max-width: 600px) {
-    #middle-section {
-      height: 415px !important;
-    }
-}
+ 	font-size: 2.5em !important;
+ 	font-weight: bold !important;
+ 	color: #303934;
 
-#h2topsmall {
-  color: #3361EF;
-  font-size: 1.4em;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+ 	text-shadow: 1px 0 #303934;
+ 	letter-spacing: 1px;
+ 	line-height: 1em !important;
+ }
 
-#h2bottombig {
-  font-size: 5em;
-  color: #303934;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 0.8em;
-}
+ @media all and (max-width: 730px) {
+ 	.carleft {
+ 		font-size: 2.0em !important;
+ 	}
 
-#pbold {
-  font-weight: bold;
-  margin-top: 0;
-}
+ 	.carright {
+ 		font-size: 0.9em !important;
+ 	}
 
-#contact-section {
-    background-image: url("../charcoal.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    min-height: 300px;
-    clear: both;
-}
+ 	.carousel {
+ 		min-width: 500px;
+ 	}
+ }
 
-#contact-form {
-  width: 85%;
-}
+ .carright {
+ 	width: 50%;
 
-#getintouch {
-	clear: both;
-	font-weight: bold;
-}
+ 	margin-top: 0;
+ 	margin-bottom: 0;
 
-.contactfield {
-	font-size: 1.2em !important;
-}
+ 	padding-left: 5%;
+ 	padding-right: 5%;
 
-#submitbutton {
-	background-color: #3361EF;
-}
+ 	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+ }
 
-.waves-effect.waves-blueish .waves-ripple {
-	background-color: rgba(51, 97, 239, 0.65);
-}
+ #middle-section {
+ 	background-color: #FFFDF8;
+ 	height: 830px;
+ 	position: relative;
 
-#name, #email, #phone {
-  border-bottom-color: white;
-  box-shadow: 0px 0px 0px white;
-  color: white;
-}
+ }
 
-@media all and (max-width: 500px) {
-    h1.header {
-      font-size: 2.5em;
-    }
+ @media all and (max-width: 600px) {
+ 	#middle-section {
+ 		height: 415px !important;
+ 	}
+ }
 
-    h5.header {
-      font-size: 1.4em;
-    }
+ #h2topsmall {
+ 	color: #3361EF;
+ 	font-size: 1.4em;
+ 	font-weight: bold;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	position: relative;
+ }
 
-    #getintouch {
-      font-size: 3em;      
-    }
+ #h2bottombig {
+ 	font-size: 5em;
+ 	color: #303934;
+ 	font-weight: bold;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	line-height: 0.8em;
+ 	position: relative;
+ }
 
-    #h2bottombig {
-      font-size: 2.5em !important;
-    }
+ #pbold {
+ 	font-weight: bold;
+ 	margin-top: 0;
+ 	position: relative;
+ }
 
-    #middle-right {
-      float: left !important;
-    }
-}
+ #pord {
+ 	position: relative;
+ }
+
+ #contact-section {
+ 	background-color: #303934;
+ 	height: 600px;
+ 	min-height: 300px;
+ 	clear: both;
+ 	position: relative;
+ }
+
+ #contact-form {
+ 	width: 85%;
+ }
+
+ #getintouch {
+ 	clear: both;
+ 	font-weight: bold;
+ }
+
+ .contactfield {
+ 	font-size: 1.2em !important;
+ }
+
+ #submitbutton {
+ 	background-color: #3361EF;
+ }
+
+ .waves-effect.waves-blueish .waves-ripple {
+ 	background-color: rgba(51, 97, 239, 0.65);
+ }
+
+ #name, #email, #phone {
+ 	border-bottom-color: white;
+ 	box-shadow: 0px 0px 0px white;
+ 	color: white;
+ }
+
+ @media all and (max-width: 500px) {
+ 	h1.header {
+ 		font-size: 2.5em;
+ 	}
+
+ 	h5.header {
+ 		font-size: 1.4em;
+ 	}
+
+ 	#getintouch {
+ 		font-size: 3em;      
+ 	}
+
+ 	#h2bottombig {
+ 		font-size: 2.5em !important;
+ 	}
+
+ 	#middle-right {
+ 		float: left !important;
+ 	}
+ }
