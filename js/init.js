@@ -1,6 +1,6 @@
 $('.carousel.carousel-slider').carousel({fullWidth: true});
 
-(function ($, toastr) {
+(function ($) {
 
 	$(function () {
 		$("#contact-form").submit(postToGoogle);
@@ -27,17 +27,17 @@ $('.carousel.carousel-slider').carousel({fullWidth: true});
 					$('#name').val("");
 					$('#email').val("");
 					$('#phone').val("");
-					toastr.info("We have received your information and will be in touch!");
+					Materialize.toast('We have received your information and will be in touch!', 4000, 'toaststyling');
 				},
 				200: function() {
 					$('#name').val("");
 					$('#email').val("");
 					$('#phone').val("");
-					toastr.info("We have received your information and will be in touch!");
+					toasMaterialize.toast('We have received your information and will be in touch!', 4000, 'toaststyling');
 				}
 			}
 		});
 		return false;
 	}
 
-})(jQuery, toastr); // end of jQuery name space
+})(jQuery); // end of jQuery name space
