@@ -16,6 +16,10 @@
  	overflow-x: hidden;
  }
 
+ body {
+ 	overflow-x: hidden;
+ }
+
  .disableselect {
  	-webkit-touch-callout: none;
  	-webkit-user-select: none;
@@ -31,7 +35,6 @@
  	font-size: 1000px;
  	color: #3361EF;
  	position: absolute;
- 	font-weight: 600;
  	top: -35vw;
  	left: -5vw;
  	transform: rotateZ(-25deg);
@@ -43,7 +46,6 @@
  	font-size: 1000px;
  	color: #3361EF;
  	position: absolute;
- 	font-weight: 600;
  	top: -35vw;
  	right: -5vw;
  	transform: rotateZ(+25deg);
@@ -55,7 +57,6 @@
  	font-size: 1000px;
  	color: #FFFDF8;
  	position: absolute;
- 	font-weight: 900;
  	top: -25vw;
  	left: -25vw;
  	z-index: 0;
