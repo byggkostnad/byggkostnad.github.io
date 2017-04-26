@@ -11,10 +11,10 @@
  	font-family: 'Montserrat';
  }
 
-html {
+ html {
  	overflow-y: scroll;
  	overflow-x: hidden;
-}
+ }
 
  body {
  	overflow-x: hidden;
@@ -27,7 +27,7 @@ html {
  	-moz-user-select: none;
  	-ms-user-select: none;
  	user-select: none;
-    cursor: default;
+ 	cursor: default;
  }
 
  .bgletterB {
@@ -60,6 +60,38 @@ html {
  	top: -25vw;
  	left: -25vw;
  	z-index: 0;
+ }
+
+ @media all and (max-width: 4000px) {
+ 	.bgletterO {
+ 		top: -15vw;
+ 		left: -20vw;
+ 	}
+ }
+
+ @media all and (max-width: 1600px) {
+ 	.bgletterO {
+ 		top: -25vw;
+ 		left: -25vw;
+ 	}
+ }
+
+ @media all and (max-width: 3900px) {
+ 	.bgletterB, .bgletterK {
+ 		top: -15vw;
+ 	}
+ }
+
+ @media all and (max-width: 3200px) {
+ 	.bgletterB, .bgletterK {
+ 		top: -20vw;
+	}
+ }
+
+ @media all and (max-width: 1800px) {
+ 	.bgletterB, .bgletterK {
+ 		top: -35vw;
+ 	}
  }
 
  @media all and (max-width: 1100px) {
