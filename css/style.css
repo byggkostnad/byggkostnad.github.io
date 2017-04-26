@@ -137,6 +137,11 @@
  	text-shadow: 0px 2px 6px #303934;
  	margin-bottom: 0;
  	position: relative;
+ 	cursor: pointer;
+ }
+
+ #index-banner a, a:active, a:focus {
+ 	outline: none;
  }
 
  h5.header {
